@@ -1,7 +1,7 @@
 ﻿
 namespace pryPachecoEtapa5
 {
-    partial class frmGenerar
+    partial class frmEtapa5
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -34,7 +34,7 @@ namespace pryPachecoEtapa5
             // 
             // btnGenerar
             // 
-            this.btnGenerar.Location = new System.Drawing.Point(291, 366);
+            this.btnGenerar.Location = new System.Drawing.Point(245, 332);
             this.btnGenerar.Name = "btnGenerar";
             this.btnGenerar.Size = new System.Drawing.Size(215, 42);
             this.btnGenerar.TabIndex = 0;
@@ -47,10 +47,11 @@ namespace pryPachecoEtapa5
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(708, 387);
             this.Controls.Add(this.btnGenerar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmGenerar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

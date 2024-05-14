@@ -16,7 +16,7 @@ namespace pryPachecoEtapa5
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmGenerar());
+            Application.Run(new frmEtapa5());
         }
     }
 }

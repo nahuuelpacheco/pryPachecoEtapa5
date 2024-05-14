@@ -47,16 +47,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsVehiculo.cs" />
-    <Compile Include="frmGenerar.cs">
+    <Compile Include="frmEtapa5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmGenerar.Designer.cs">
-      <DependentUpon>frmGenerar.cs</DependentUpon>
+    <Compile Include="frmEtapa5.Designer.cs">
+      <DependentUpon>frmEtapa5.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmGenerar.resx">
-      <DependentUpon>frmGenerar.cs</DependentUpon>
+    <EmbeddedResource Include="frmEtapa5.resx">
+      <DependentUpon>frmEtapa5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

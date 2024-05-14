@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryPachecoEtapa5
 {
-    public partial class frmGenerar : Form
+    public partial class frmEtapa5 : Form
     {
-        public frmGenerar()
+        public frmEtapa5()
         {
             InitializeComponent();
         }
@@ -44,7 +44,7 @@ namespace pryPachecoEtapa5
             {
                 case 1:
                     objAuto.CrearAuto();
-                    objAuto.pctAuto.Location = new Point(250, 50);
+                    objAuto.pctAuto.Location = new Point(300, 50);
                     Controls.Add(objAuto.pctAuto);
                     Auto = true;
                     if (Avion == true)
@@ -61,7 +61,7 @@ namespace pryPachecoEtapa5
 
                 case 2:
                     objAvion.CrearAvion();
-                    objAvion.pctAvion.Location = new Point(250, 50);
+                    objAvion.pctAvion.Location = new Point(300, 50);
                     Controls.Add(objAvion.pctAvion);
                     Avion = true;
                     if (Auto == true)
@@ -78,7 +78,7 @@ namespace pryPachecoEtapa5
 
                 case 3:
                     objBarco.CrearBarco();
-                    objBarco.pctBarco.Location = new Point(250, 50);
+                    objBarco.pctBarco.Location = new Point(300, 50);
                     Controls.Add(objBarco.pctBarco);
                     Barco = true;
                     if (Avion == true)
